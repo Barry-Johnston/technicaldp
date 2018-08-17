@@ -1,0 +1,54 @@
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+nav header {
+  font-size: 28px;
+  padding: 20px;
+  text-align: center;
+}
+#navbar {
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  position: fixed;
+  display:flex;
+  flex-direction: column;
+  border-right: 2px solid black;
+
+
+}
+#navbar .nav-link li{
+  font-size: 16px;
+  border-top: 1px solid black;
+  display: flex;
+  padding: 10px;
+  padding-left: 20px;
+  color: gray;
+
+}
+#navbar .nav-link {
+  text-decoration: none;
+}
+#main-doc{
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+main header {
+  font-size: 25px;
+
+}
+h3 {
+  background-color: gray;
+  width: auto;
+  max-width: 500px;
+
+}
