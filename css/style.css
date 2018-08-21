@@ -17,8 +17,6 @@ nav header {
   display:flex;
   flex-direction: column;
   border-right: 2px solid black;
-
-
 }
 #navbar .nav-link li{
   font-size: 16px;
@@ -27,7 +25,6 @@ nav header {
   padding: 10px;
   padding-left: 20px;
   color: gray;
-
 }
 #navbar .nav-link {
   text-decoration: none;
@@ -44,11 +41,43 @@ nav ul {
 }
 main header {
   font-size: 25px;
-
 }
-h3 {
-  background-color: gray;
-  width: auto;
-  max-width: 500px;
+#main-doc {
+  padding: 50px;
+}
+#main-doc section article p {
+  padding: 10px;
+  padding-left: 15px;
+}
+#main-doc section article {
+  padding: 15px;
+}
+#main-doc section article h3{
+  padding-right: 10px;
+}
+hr {
+  width: 25%;
+  float: left;
+  color: orange;
+}
+code {
+  background-color: lightgray;
+  padding: 5px;
+}
+#Supercharging_our_example code {
+  margin-left: 10px;
+}
 
+@media only screen and (max-width: 768px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 2px solid black;
+    height: auto;
+    position: relative;
+  }
+  #main-doc {
+    margin-left: 0px;
+  }
 }
